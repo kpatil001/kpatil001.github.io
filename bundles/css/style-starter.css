@@ -74,6 +74,15 @@ img.shape-w3-six {
 /* 
 	Header Section
 */
+
+/* shadow effect */
+header {
+    -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    background: #fff;
+}
+
 .w3l-header-4 #headers4-block {
   margin: 0px auto;
   border-bottom: 1px solid #eee;
