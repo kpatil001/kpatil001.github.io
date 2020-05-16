@@ -2,7 +2,383 @@
 		MADE BY SAFALYA INC.
 */
 
-/*--------------------------------------------------------------
+
+/* Technology Stack */
+
+.gh-testimonials .gh-section-head.gh-section-head-bigger p {
+max-width: 650px
+}
+
+div.gh-integrations-gallery-name{
+font-family: Whitney SSm A, Whitney SSm B, sans-serif;
+letter-spacing:0;
+-webkit-font-smoothing: antialiased;
+
+}
+ .gh-section.gh-section-members-integrations .gh-section-head p {
+            max-width: 700px
+        }
+        
+        .gh-section.gh-section-members-integrations {
+            margin-bottom: 110px
+        }
+
+.gh-section-head.gh-section-head-bigger p {
+            margin-bottom: 1em;
+            max-width: 600px;
+            color: #343f44;
+            font-size: 1.14rem;
+            font-weight: 300;
+            letter-spacing: -.25px
+        }
+        @media (max-width:660px) {
+            .gh-section-head.gh-section-head-bigger p {
+                font-size: 1.6rem
+            }
+        }
+section.gh-section{
+	border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-box-sizing:  border-box;
+    box-sizing: border-box;
+    }
+    .gh-forecast-content .gh-section-head-pre {
+            margin-top: -3px;
+            color: #fec002;
+            line-height: 1em;
+            text-align: left
+        }
+        .gh-section-head-pre {
+            margin: 0;
+            color: #3eb0ef;
+            font-size: 1.3rem;
+            line-height: 3.15em;
+            font-weight: 600;
+            letter-spacing: .9px;
+            text-align: center;
+            text-transform: uppercase;
+            opacity: 1
+        }
+         .gh-section-head.gh-section-head-bigger h2 {
+            margin: .1em 0 .3em;
+            font-size: 2.1rem;
+            font-weight: 500;
+            letter-spacing: -.66px
+        }
+        
+        @media (max-width:660px) {
+            .gh-section-head.gh-section-head-bigger h2 {
+                font-size: 6vw
+            }
+        }
+        .gh-three-card-integrations .gh-section-head.gh-section-head-bigger h2 {
+            font-size: 3rem
+        }
+header.gh-section-head{
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
+background-color:rgb(255,255,255,0);
+box-shadow: none;
+margin-bottom: 1em;
+}
+.gh-integrations-gallery-wrapper {
+            margin: -10px 0 -125px;
+            display: block
+        }
+        
+.gh-integrations-gallery-wrapper:hover {
+            text-decoration: none
+        }
+.gh-three-card-integrations .gh-integrations-gallery-wrapper {
+            margin-top: -20px;
+            margin-bottom: 20px;
+            transition: all .8s ease;
+            transform: scale(1.07)
+        }
+.gh-integrations-gallery-grid {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: repeat(11, 90px);
+            grid-gap: 32px
+        }
+        
+        .gh-integrations-gallery-grid-column {
+            height: 350px
+        }
+        
+        .gh-integrations-gallery-grid-column .gh-integrations-gallery-grid-item:first-child {
+            margin-bottom: 32px
+        }
+        
+        .gh-integrations-gallery-grid-column:first-of-type,
+        .gh-integrations-gallery-grid-column:last-of-type {
+            grid-template-rows: 1fr
+        }
+        
+        .gh-integrations-gallery-grid-column:first-of-type {
+            padding-top: 80px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(2),
+        .gh-integrations-gallery-grid-column:nth-of-type(4) {
+            padding-top: 38px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(3) {
+            padding-top: 85px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(5) {
+            padding-top: 106px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(6) {
+            padding-top: 43px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(7) {
+            padding-top: 97px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(8) {
+            padding-top: 24px
+        }
+        
+        .gh-integrations-gallery-grid-column:nth-of-type(9) {
+            padding-top: 83px
+        }
+        
+        .gh-integrations-gallery-grid-column:last-of-type {
+            padding-top: 65px
+        }
+        
+        .gh-integrations-gallery-grid-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 91px;
+            height: 92px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, .05), 0 3px 10px 0 rgba(0, 0, 0, .01), 0 18px 30px -10px rgba(75, 82, 94, .099)
+        }
+        .gh-integrations-gallery-grid-item .gh-integrations-gallery-name {
+            color: #51626a
+        }
+         .gh-integrations-gallery-img-wrapper {
+            margin-top: 4.5px;
+            width: 30px;
+            height: 30px
+        }
+        
+        .gh-integrations-gallery-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain
+        }
+        #youtube .gh-integrations-gallery-img-wrapper {
+            width: 36px;
+            height: auto
+        }
+        
+        #disqus .gh-integrations-gallery-img-wrapper {
+            width: auto;
+            height: 34px
+        }
+        
+        #analytics .gh-integrations-gallery-img-wrapper {
+            width: 28px;
+            height: auto
+        }
+        
+        #twitter .gh-integrations-gallery-img-wrapper {
+            width: 29px;
+            height: auto
+        }
+        
+        #netlify .gh-integrations-gallery-img-wrapper,
+        #stripe .gh-integrations-gallery-img-wrapper {
+            width: auto;
+            height: 35px
+        }
+        
+        #lets-encrypt .gh-integrations-gallery-img-wrapper {
+            width: 33px;
+            height: auto
+        }
+        
+        #slack .gh-integrations-gallery-img-wrapper {
+            width: auto;
+            height: 32px
+        }
+        
+        #ia-writer .gh-integrations-gallery-img-wrapper {
+            width: auto;
+            height: 38px
+        }
+        
+        #soundcloud .gh-integrations-gallery-img-wrapper {
+            width: 43px;
+            margin-bottom: 4px;
+            width: 46px;
+            height: auto
+        }
+        
+        #shopify .gh-integrations-gallery-img-wrapper {
+            width: auto;
+            height: 36px
+        }
+        .gh-integrations-gallery-name {
+            margin-top: 1rem;
+            font-size: 0.63rem;
+            line-height: 1em;
+            text-align: center
+        }
+.gh-themes-showcase+.gh-section {
+            padding-top: 120px
+        }
+        .gh-section {
+            margin: 0 -4vw;
+            padding: 60px 4vw
+        }
+        .gh-section.gh-tweet-section-no-children {
+            padding-bottom: 122px
+        }                
+        .gh-section-publisher .inner {
+            max-width: 1100px
+        }
+        .gh-section-head.gh-section-head-bigger p {
+            max-width: 650px
+        }
+        .gh-section.gh-themes-showcase {
+            padding-bottom: 0
+        }
+        .gh-themes-showcase+.gh-section {
+            padding-top: 120px
+        }
+         .gh-section {
+            margin: 0 -4vw;
+            padding: 60px 4vw
+        }
+                
+@media (max-width:600px) {
+            .gh-section {
+                padding: 10vw 4vw
+            }
+        }
+                .gh-section-white {
+            background: #fff
+        }
+        
+        .gh-section-whitegrey {
+            background: #f7fafc
+        }
+        
+        .gh-section-dark {
+            color: #fff;
+            text-shadow: rgba(0, 0, 0, .1) 0 1px 2px
+        }
+        
+        .gh-section-dark h2 {
+            color: #fff
+        }
+        
+        .gh-section-dark h3 {
+            color: #fff;
+            font-size: 1.8rem
+        }
+        
+        .gh-section-dark p {
+            opacity: .8
+        }
+         .gh-section-dark a {
+            color: #5fbdf2
+        }
+        
+        .gh-section-dark a.gh-anchor {
+            color: #fff
+        }
+        
+        .gh-section h3 .gh-badge {
+            margin-left: 4px;
+            padding: 2px;
+            font-size: .7em;
+            vertical-align: top
+        }
+        .gh-section.gh-section-intro {
+            position: relative;
+            padding-top: 10px
+        }
+.gh-section.gh-section-about-data {
+            position: relative;
+            background: radial-gradient(circle farthest-corner at right bottom, #1e2427 0, #343f44 100%)
+        }
+       
+        .gh-three-card-integrations .gh-section-integrations-gallery {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 0
+        }
+        
+        .gh-three-card-integrations .gh-section.gh-section-members-integrations .gh-section-head p {
+            margin: 0 32px;
+            max-width: 572px;
+            opacity: 1
+        }
+        .inner {
+            margin: 0 auto;
+            max-width: 1030px;
+            width: 100%
+        }
+        
+         .inner.gh-themes-wrapper {
+            max-width: 1160px
+        }
+        .gh-section-head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1em;
+            text-align: center
+        }
+        
+        .gh-section-head h2 {
+            margin: 1em 0 .3em;
+            font-size: 2.6rem;
+            font-weight: 400
+        }
+        
+        @media (max-width:660px) {
+            .gh-section-head h2 {
+                font-size: 4.8vw
+            }
+        }
+        
+        .gh-section-head p {
+            margin: 0;
+            font-size: 2rem;
+            line-height: 1.5em;
+            font-weight: 300;
+            opacity: .8
+        }
+        
+        @media (max-width:660px) {
+            .gh-section-head p {
+                font-size: 1.6rem
+            }
+        }
+/*------------------------
+--------------------------------------
 # Hero Section why us
 --------------------------------------------------------------*/
 #hero {
