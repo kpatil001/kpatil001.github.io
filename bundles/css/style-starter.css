@@ -5,8 +5,43 @@
 
 /* Technology Stack */
 
-.gh-testimonials .gh-section-head.gh-section-head-bigger p {
-max-width: 650px
+@media only screen and (max-width: 320px){
+     .gh-integrations-gallery-grid-column:nth-of-type(9) , 
+     .gh-integrations-gallery-grid-column:nth-of-type(8),
+     .gh-integrations-gallery-grid-column:nth-of-type(10),
+     .gh-integrations-gallery-grid-column:nth-of-type(11){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px){
+     .gh-integrations-gallery-grid-column:nth-of-type(9) , 
+     .gh-integrations-gallery-grid-column:nth-of-type(8),
+     .gh-integrations-gallery-grid-column:nth-of-type(10),
+     .gh-integrations-gallery-grid-column:nth-of-type(11){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px){
+	 /* 
+.gh-integrations-gallery-grid-column:nth-of-type(3),
+	 .gh-integrations-gallery-grid-column:nth-of-type(4),
+ */
+     .gh-integrations-gallery-grid-column:nth-of-type(9), 
+     .gh-integrations-gallery-grid-column:nth-of-type(8),
+     .gh-integrations-gallery-grid-column:nth-of-type(10),
+     .gh-integrations-gallery-grid-column:nth-of-type(11){
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+	
+     /* .gh-integrations-gallery-grid-column:nth-of-type(3), */
+     .gh-integrations-gallery-grid-column:nth-of-type(10),
+     .gh-integrations-gallery-grid-column:nth-of-type(11){
+        display: none;
+    }
 }
 
 div.gh-integrations-gallery-name{
@@ -44,12 +79,7 @@ section.gh-section{
     -webkit-box-sizing:  border-box;
     box-sizing: border-box;
     }
-    .gh-forecast-content .gh-section-head-pre {
-            margin-top: -3px;
-            color: #fec002;
-            line-height: 1em;
-            text-align: left
-        }
+    
         .gh-section-head-pre {
             margin: 0;
             color: #3eb0ef;
@@ -244,28 +274,16 @@ margin-bottom: 1em;
             line-height: 1em;
             text-align: center
         }
-.gh-themes-showcase+.gh-section {
-            padding-top: 120px
-        }
+
         .gh-section {
             margin: 0 -4vw;
             padding: 60px 4vw
         }
-        .gh-section.gh-tweet-section-no-children {
-            padding-bottom: 122px
-        }                
-        .gh-section-publisher .inner {
-            max-width: 1100px
-        }
+        
         .gh-section-head.gh-section-head-bigger p {
             max-width: 650px
         }
-        .gh-section.gh-themes-showcase {
-            padding-bottom: 0
-        }
-        .gh-themes-showcase+.gh-section {
-            padding-top: 120px
-        }
+       
          .gh-section {
             margin: 0 -4vw;
             padding: 60px 4vw
@@ -276,52 +294,16 @@ margin-bottom: 1em;
                 padding: 10vw 4vw
             }
         }
-                .gh-section-white {
-            background: #fff
-        }
-        
+    
         .gh-section-whitegrey {
             background: #f7fafc
         }
-        
-        .gh-section-dark {
-            color: #fff;
-            text-shadow: rgba(0, 0, 0, .1) 0 1px 2px
-        }
-        
-        .gh-section-dark h2 {
-            color: #fff
-        }
-        
-        .gh-section-dark h3 {
-            color: #fff;
-            font-size: 1.8rem
-        }
-        
-        .gh-section-dark p {
-            opacity: .8
-        }
-         .gh-section-dark a {
-            color: #5fbdf2
-        }
-        
-        .gh-section-dark a.gh-anchor {
-            color: #fff
-        }
-        
+           
         .gh-section h3 .gh-badge {
             margin-left: 4px;
             padding: 2px;
             font-size: .7em;
             vertical-align: top
-        }
-        .gh-section.gh-section-intro {
-            position: relative;
-            padding-top: 10px
-        }
-.gh-section.gh-section-about-data {
-            position: relative;
-            background: radial-gradient(circle farthest-corner at right bottom, #1e2427 0, #343f44 100%)
         }
        
         .gh-three-card-integrations .gh-section-integrations-gallery {
@@ -340,10 +322,7 @@ margin-bottom: 1em;
             max-width: 1030px;
             width: 100%
         }
-        
-         .inner.gh-themes-wrapper {
-            max-width: 1160px
-        }
+
         .gh-section-head {
             display: flex;
             flex-direction: column;
