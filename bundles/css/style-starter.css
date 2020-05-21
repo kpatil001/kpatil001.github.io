@@ -695,18 +695,41 @@ img.shape-w3-six {
 	Header Section
 */
 
+/* To create scroll effect */
+.header__inner.header__sticky:hover {
+  -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+  box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+}
+.header__sticky {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+  box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+}
+
+@media (max-width:991px) {
+  .header__sticky:hover {
+    background: #fff;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+    box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+  }
+}
+
 /* shadow effect */
 header {
-    -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+   /* 
+ -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
     -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+ 
     box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    */
     background: #fff;
 }
 
 .w3l-header-4 #headers4-block {
   margin: 0px auto;
-  border-bottom: 1px solid #eee;
-  background: white;
+  /* border-bottom: 1px solid #eee; */
+  background: rgb(255,255,255,0);
   z-index: 999; }
 
 .w3l-header-4 .header-align {
