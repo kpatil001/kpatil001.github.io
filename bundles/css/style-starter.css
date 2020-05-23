@@ -4,6 +4,188 @@
 
 
 
+/* Career Page style */
+
+.hero-cluster {
+	max-width: 1440px;
+	padding-right: 200px;
+	padding-left: 200px;
+	position: relative;
+	margin: 0 auto 24px;
+}
+
+@media screen and (max-width:1439px) {
+	.hero-cluster {
+		padding-right: 48px;
+		padding-left: 48px;
+	}
+}
+
+@media screen and (max-width:1127px) {
+	.hero-cluster {
+		padding-right: 128px;
+		padding-left: 128px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.hero-cluster {
+		padding-right: 48px;
+		padding-left: 48px;
+	}
+}
+
+@media screen and (max-width:349px) {
+	.hero-cluster {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.hero-cluster {
+		margin-bottom: 48px;
+	}
+}
+
+@media screen and (min-width:1128px) {
+	.hero-cluster {
+		height: 488px;
+		margin: 24px 96px 128px;
+	}
+}
+
+@media screen and (min-width:1440px) {
+	.hero-cluster {
+		height: 543px;
+		margin-bottom: 96px;
+	}
+}
+@media screen and (min-width:1128px) {
+	.hero-cluster__panel {
+		position: absolute;
+		top: 50%;
+		width: 528px;
+		padding: 56px 64px 56px 88px;
+		background-color: #fff;
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+}
+
+@media screen and (min-width:1440px) {
+	.hero-cluster__panel {
+		right: 50%;
+	}
+}
+
+@media screen and (max-width:1127px) {
+	.hero-cluster__panel {
+		padding-top: 48px;
+		padding-bottom: 48px;
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.hero-cluster__panel {
+		padding-top: 28px;
+		padding-bottom: 28px;
+	}
+}
+
+.hero-cluster__panel__title {
+	margin-top: 24px;
+}
+
+@media screen and (min-width:1128px) {
+	.hero-cluster__panel__title {
+		min-height: 153px;
+	}
+}
+
+.hero-cluster__panel__snipe {
+	font-size: 18px;
+	line-height: 1.44444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-weight: 500;
+}
+
+.hero-cluster__panel__snipe--bold {
+	font-weight: 600;
+}
+
+@media screen and (min-width:1128px) {
+	.hero-cluster__imageWrap {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+@media screen and (max-width:1127px) {
+	.hero-cluster__imageWrap {
+		margin-right: -128px;
+		margin-left: -128px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.hero-cluster__imageWrap {
+		margin-right: -48px;
+		margin-left: -48px;
+	}
+}
+
+@media screen and (max-width:349px) {
+	.hero-cluster__imageWrap {
+		margin-right: -24px;
+		margin-left: -24px;
+	}
+}
+
+.hero-cluster__image {
+	display: block;
+}
+
+@media screen and (min-width:1128px) {
+	.hero-cluster__image {
+		max-height: 491px;
+	}
+}
+
+@media screen and (min-width:1440px) {
+	.hero-cluster__image {
+		max-height: 543px;
+	}
+}
+
+@media screen and (max-width:1127px) {
+	.hero-cluster__image {
+		width: 100%;
+	}
+}
+
+.hero-cluster__background {
+	position: absolute;
+	top: 25%;
+	right: 12.5%;
+	bottom: -32px;
+	left: 0;
+	background-color: #ddd;
+}
+
+@media screen and (max-width:1127px) {
+	.hero-cluster__background {
+		display: none;
+	}
+}
+main {
+	display: block;
+}
 
 /* Section Seperator */
 .masthead__browser-wrapper .owl-carousel:after,.masthead__browser-wrapper .owl-carousel:before,.masthead__style-overlay,.section__divider::before,.section__heading:before {
@@ -11993,7 +12175,7 @@ h4.sub-title {
 
 .w3l-about1 .new-block {
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../images/teamwork.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../images/teamwork .jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
