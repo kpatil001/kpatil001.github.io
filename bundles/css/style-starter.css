@@ -4,6 +4,8 @@
 
 
 
+
+
 /* Career Page style */
 
 .hero-cluster {
@@ -187,6 +189,181 @@ main {
 	display: block;
 }
 
+/* JavaDeveloper page */
+
+.header__bgOverlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity .25s,z-index 0s ease .25s;
+	-o-transition: opacity .25s,z-index 0s ease .25s;
+	transition: opacity .25s,z-index 0s ease .25s;
+	z-index: -1;
+}
+
+@media screen and (max-width:1127px) {
+	.header__bgOverlay--open {
+		display: block;
+		opacity: .5;
+		filter: alpha(opacity=50);
+		-webkit-transition: opacity .25s;
+		-o-transition: opacity .25s;
+		transition: opacity .25s;
+		z-index: 1;
+	}
+}
+.page-header {
+	margin-top: 78px;
+	padding: 64px 0;
+	background-color: white;
+	background-image: url("../images/jobBg.png");
+	background-size: cover;
+	background-position: 50%;
+}
+
+@media screen and (min-width:1128px) {
+	.page-header {
+		padding: 96px 0;
+	}
+}
+
+@media screen and (max-width:1127px) {
+	.page-header__title {
+		font-size: 32px;
+		font-weight: 600;
+		line-height: 1.375;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
+		line-height: 1.125;
+		margin-bottom: 0;
+	}
+}
+h1.page-header__title {
+	    display: block;
+    	font-size: 3rem;
+    /* 
+margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+ */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  /*   font-weight: bold; */
+
+}
+.page-header .container, main .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    display: block;
+}
+.page-positions__overview div p{
+margin: 0 0 24px;
+}
+
+.description, .page-positions__overview div p span,
+.page-positions__overview div ul,
+.page-positions__overview div ul li,
+.page-positions__overview div ul li span
+{
+	font-size: 18px;
+    line-height: 1.66667;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #222;
+    font-family: Cereal,sans-serif;
+}
+
+.page-header__locations {
+	margin: 16px 0 0;
+}
+
+.page-header__location {
+	display: block;
+}
+
+.col-xs-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 9px;
+	padding-right: 9px;
+	float: left;
+	width: 100%;
+}
+.col-md-8{
+position: relative;
+	min-height: 1px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+@media (min-width:1128px) {
+float:left;
+}
+.col-md-8 {
+		width: 66.66667%;
+	}
+.col-md-offset-2 {
+		margin-left: 16.66667%;
+	}
+.page-positions__content {
+	margin-top: 48px;
+}
+.error404 .page-header,.page-positions__application,.page-positions__overview {
+	display: none;
+}
+
+.page-positions__application.active,.page-positions__overview.active {
+	display: block;
+}
+
+.page-positions__content {
+	margin-top: 48px;
+}
+
+.page-positions__btn-wrap {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.page-positions__btn-wrap {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.btn__std {
+	font-size: 16px;
+	line-height: 1.375;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 24px;
+	padding: 12px 32px;
+	color: #fff;
+	background-color: #007e82;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+@media screen and (min-width:768px) {
+	.btn__std {
+		margin-top: 48px;
+	}
+}
+
+@media screen and (min-width:1128px) {
+	.btn__std {
+		margin-top: 24px;
+	}
+}
+	
+	
 /* Section Seperator */
 .masthead__browser-wrapper .owl-carousel:after,.masthead__browser-wrapper .owl-carousel:before,.masthead__style-overlay,.section__divider::before,.section__heading:before {
   content: '';
@@ -3872,11 +4049,13 @@ address {
   font-style: normal;
   line-height: inherit; }
 
+/* 
 ol,
 ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem; }
+ */
 
 ol ol,
 ul ul,
@@ -11167,9 +11346,11 @@ iframe {
   border: none;
   display: block; }
 
+/* 
 ul {
   margin: 0;
   padding: 0; }
+ */
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
