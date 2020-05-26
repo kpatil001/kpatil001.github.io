@@ -7,6 +7,122 @@
 
 
 /* Career Page style */
+.hero__text-container {
+	padding-bottom: 30px;
+}
+
+.hero__text-container p {
+	margin: 0 auto;
+	font-size: 1em;
+	color: rgb(0,0,0,0.8);
+    line-height: unset;
+}
+
+.heroPara{
+	font-weight:600;
+}
+
+.hero__text-container {
+	padding-top: 60px;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	padding: 0 15px;
+}
+
+/* 
+.hero__text-container p {
+	margin: 0 auto 0;
+	width: 280px;
+	text-align: center;
+}
+ */
+
+.hero__text-btn {
+	text-align: center;
+	padding-top: 30px;
+	clear: both;
+}
+.yext-btn-on-gray {
+	border-radius: 0;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	padding: 13.5px 45px 11.5px;
+	letter-spacing: 1px;
+	text-align: center;
+	cursor: pointer;
+	background: #0f70f0;
+	border-radius: 45px;
+	transition: .25s background ease-in;
+	transition: .1s color linear;
+	display: inline-block;
+	height: 44px;
+}
+
+.yext-btn-on-gray:hover {
+	background: #0c5ecb;
+	color: #fff;
+}
+
+.yext-btn-on-gray:focus {
+	outline: none;
+	border-color: #0c5ecb;
+	-webkit-box-shadow: 0px 0px 4px 0px #0f70f0;
+	box-shadow: 0px 0px 4px 0px #0f70f0;
+}
+
+.yext-btn-on-gray:disabled,.yext-btn-on-gray.disabled {
+	opacity: 0.3;
+}
+
+.yext-btn-on-gray:disabled:hover,.yext-btn-on-gray.disabled:hover {
+	background: #0f70f0;
+	color: #fff;
+}
+.cta-module-title{
+	margin: 23px 0px;
+	 font-size:27.6px; 
+}
+@media all and (min-width: 530px) {
+	.hero__text-container p {
+		width: 500px;
+	}
+}
+
+@media all and (min-width: 870px) {
+	.hero__text-container p {
+		width: 700px;
+	}
+}
+
+@media all and (min-width: 870px) {
+	.wrapper {
+		padding: 0;
+		width: 830px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (min-width: 1090px) {
+	.wrapper {
+		width: 1050px;
+	}
+}
+.hero__text-container p {
+	margin: 0 auto;
+	font-size: 18.4px;
+	font-weight: 200;
+}
+
+.cta-module-title{
+	font-weight: bold;
+    line-height: 1;
+}
 
 .section-heading h2 {
 	margin-bottom: 20px;
