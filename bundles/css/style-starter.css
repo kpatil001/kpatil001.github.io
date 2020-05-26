@@ -8,6 +8,311 @@
 
 /* Career Page style */
 
+.section-heading h2 {
+	margin-bottom: 20px;
+	font-size:40px
+}
+
+.section-heading p {
+	max-width: 40em;
+	margin: auto;
+	font-size:16px;
+	max-width: 40em;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .544px;
+    text-align: center;
+    ext-transform: none;
+    font-family: 'Clarkson',Helvetica,sans-serif;
+    line-height: 1.7em;
+    color: #767676;
+}
+
+  .openings .job-grid {
+	margin-top: 0;
+	margin-bottom: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 84vw;
+}
+@media (max-width:320px)
+{
+	.section-heading h2 {
+		font-size:30px;
+	}
+	.section-heading p {
+		font-size:14px;
+	}
+}
+@media (max-width:375px)
+{
+	.section-heading h2 {
+		font-size:30px;
+	}
+	.section-heading p {
+		font-size:14px;
+	}
+}
+@media (max-width:375px)
+{
+	.section-heading h2 {
+		font-size:30px;
+	}
+	.section-heading p {
+		font-size:14px;
+	}
+}
+@media (max-width:768px)
+{
+	.section-heading h2 {
+		font-size:34px;
+	}
+	.section-heading p {
+		font-size:14px;
+	}
+}
+@media (max-width:1024px)
+{
+	.section-heading h2 {
+		font-size:34px;
+	}
+	.section-heading p {
+		font-size:14px;
+	}
+}
+
+
+
+
+
+
+@media all and (min-width:768px) {
+	  .openings .job-grid {
+		margin-bottom: 100px;
+	}
+}
+
+@media all and (min-width:1281px) {
+	  .openings .job-grid {
+		margin-bottom: 140px;
+	}
+}
+
+
+a.
+  .openings .grid-cells {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media all and (min-width:600px) {
+	  .openings .grid-cells {
+		margin: -1.61290323%;
+	}
+}
+
+  .openings .grid-cells::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+  .openings .grid-cell {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	width: 100%;
+	height: 160px;
+	margin-bottom: 6.4516129%;
+	padding: 20px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-color: rgba(0,0,0,.3);
+	-webkit-transition: border-color 300ms cubic-bezier(.694,0,.335,1);
+	-o-transition: border-color 300ms cubic-bezier(.694,0,.335,1);
+	transition: border-color 300ms cubic-bezier(.694,0,.335,1);
+}
+
+@media all and (min-width:375px) {
+	  .openings .grid-cell {
+		height: 180px;
+	}
+}
+
+@media all and (min-width:600px) {
+	  .openings .grid-cell {
+		padding: 40px;
+		width: 46.77419355%;
+		height: 220px;
+		margin: 1.61290323%;
+	}
+}
+
+@media all and (min-width:1024px) {
+	  .openings .grid-cell {
+		width: 30.10752688%;
+	}
+}
+
+@media all and (min-width:1601px) {
+	  .openings .grid-cell {
+		width: 21.77419355%;
+		height: 240px;
+	}
+}
+
+  .openings .grid-cell.has-no-openings {
+	border-color: rgba(0,0,0,.1);
+}
+
+  .openings .grid-cell.has-no-openings .cell-job-count {
+	visibility: hidden;
+}
+
+.no-touch  .openings .grid-cell:hover {
+	border-color: #000;
+}
+
+.no-touch  .openings .grid-cell:hover .cell-job-count {
+	opacity: 1;
+}
+
+  .openings .cell-job-count {
+	font-family: 'Clarkson',Helvetica,sans-serif;
+	font-size: 46px;
+	line-height: 1.30434783em;
+	font-weight: 500;
+	color: #222;
+	opacity: .1;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+	-o-transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+	transition: opacity 300ms cubic-bezier(.694,0,.335,1);
+}
+
+  .openings .cell-job-count.is-transparent {
+	opacity: .1;
+}
+
+  .openings .cell-job-count.is-small {
+	font-family: 'Clarkson',Helvetica,sans-serif;
+	font-size: 30px;
+	line-height: 1.33333333em;
+}
+
+@media all and (min-width:768px) {
+	  .openings .cell-job-count {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 60px;
+		line-height: 1.16666667em;
+	}
+
+	  .openings .cell-job-count.is-small {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 46px;
+		line-height: 1.30434783em;
+	}
+}
+
+@media all and (min-width:1281px) {
+	  .openings .cell-job-count {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 70px;
+		line-height: 1.14285714em;
+	}
+
+	  .openings .cell-job-count.is-small {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 50px;
+		line-height: 1.2em;
+	}
+}
+
+  .openings .cell-department {
+	font-weight: 500;
+	line-height: 1.1em;
+	font-family: 'Clarkson',Helvetica,sans-serif;
+	font-size: 14px;
+	margin-top: .5em;
+	color: rgb(0,0,0);
+	margin-bottom: .3em;
+}
+
+  .openings .cell-department.is-lowercase {
+	text-transform: none;
+	letter-spacing: normal;
+	font-weight: 500;
+}
+
+  .openings .cell-department.is-dark {
+	color: #222;
+}
+
+  .openings .cell-department.is-light {
+	color: #fff;
+}
+
+@media all and (min-width:1281px) {
+	  .openings .cell-department {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 16px;
+	}
+}
+
+  .openings .cell-locations {
+	font-weight: 400;
+	letter-spacing: normal;
+	text-transform: none;
+	line-height: 1.7em;
+	letter-spacing: .04ch;
+	font-family: 'Clarkson',Helvetica,sans-serif;
+	font-size: 14px;
+	color: #767676;
+}
+
+  .openings .cell-locations.is-dark {
+	color: #767676;
+}
+
+  .openings .cell-locations.is-dark.is-transparent {
+	color: rgba(0,0,0,.5);
+}
+
+  .openings .cell-locations.is-light {
+	color: #767676;
+}
+
+  .openings .cell-locations.is-light.is-transparent {
+	color: rgba(255,255,255,.7);
+}
+
+@media all and (min-width:768px) {
+	  .openings .cell-locations {
+		letter-spacing: .025ch;
+	}
+}
+
+@media all and (min-width:1281px) {
+	  .openings .cell-locations {
+		font-family: 'Clarkson',Helvetica,sans-serif;
+		font-size: 15px;
+	}
+}
+
+  .openings .cell-locations.is-transparent {
+	color: rgba(0,0,0,.5);
+}
+
 .grid-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -59,6 +364,7 @@
     margin: 0;
     display: list-item;
     text-align: -webkit-match-parent;
+    font-weight:300; 
 
 }
 
@@ -161,17 +467,6 @@ ol.grid-list li::before.is-light {
 	font-size: 40px;
 	
 }
-
-.section-heading h2 {
-	margin-bottom: 20px;
-}
-
-.section-heading p {
-	max-width: 40em;
-	margin: auto;
-}
-
-
 
 @media (max-width:768px){
 	.section-heading {
