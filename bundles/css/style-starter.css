@@ -3,9 +3,6 @@
 */
 
 
-
-
-
 /* Career Page style */
 
 .morph-layer_img.top {
@@ -1952,6 +1949,7 @@ img.job-w3-six {
   background-color: rgb(255,255,255,1) !important;
   -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
   box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+  height: 70px !important;
 }
 
 @media (max-width:991px) {
@@ -1978,7 +1976,9 @@ header {
   margin: 0px auto;
   /* border-bottom: 1px solid #eee; */
   background: rgb(255,255,255,0);
-  z-index: 999; }
+  z-index: 999; 
+  height: 100px;
+  transition: all 0.3s ease-in-out!important;}
 
 .w3l-header-4 .header-align {
   grid-template-columns: auto 1fr auto;
