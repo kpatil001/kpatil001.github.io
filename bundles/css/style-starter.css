@@ -1949,7 +1949,7 @@ img.job-w3-six {
   box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
 }
 .header__sticky {
-  background: #fff;
+  background-color: rgb(255,255,255,1) !important;
   -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
   box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
 }
@@ -2420,7 +2420,9 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030; }
+  z-index: 1030; 
+  transition: all .3s ease-in-out!important;
+  }
 /*
 	SERVICE SECTION
 */
@@ -10490,12 +10492,14 @@ button.bg-dark:focus {
   position: -webkit-sticky !important;
   position: sticky !important; }
 
+/* 
 .fixed-top {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030; }
+ */
 
 .fixed-bottom {
   position: fixed;
