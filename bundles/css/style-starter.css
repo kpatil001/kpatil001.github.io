@@ -8,7 +8,13 @@
 
 /* Career Page style */
 
-
+.morph-layer_img.top {
+    transform: translate(-4px,6px);
+}
+.morph-layer_img {
+    max-width: 102%;
+    width: 102%;
+}
 .hero__text-container {
 	padding-bottom: 30px;
 }
@@ -253,13 +259,15 @@
 
 @media all and (min-width:768px) {
 	  .openings .job-grid {
-		margin-bottom: 100px;
+		margin-bottom: 5px;
+		padding-bottom:160px;
 	}
 }
 
 @media all and (min-width:1281px) {
 	  .openings .job-grid {
-		margin-bottom: 140px;
+		margin-bottom: 10px;
+		padding-bottom: 130px;
 	}
 }
 
@@ -281,7 +289,12 @@ a.
 	display: table;
 	clear: both;
 }
-
+.openings .grid-cell:hover{
+	border: 1px solid rgba(0,0,0,.1);
+	border-color: rgba(0,0,0,.3);
+	box-shadow: none;
+	
+}
   .openings .grid-cell {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -300,11 +313,17 @@ a.
 	height: 160px;
 	margin-bottom: 6.4516129%;
 	padding: 20px;
-	border: 1px solid rgba(0,0,0,.1);
+	/* 
+border: 1px solid rgba(0,0,0,.1);
 	border-color: rgba(0,0,0,.3);
+ */
+ -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
 	-webkit-transition: border-color 300ms cubic-bezier(.694,0,.335,1);
 	-o-transition: border-color 300ms cubic-bezier(.694,0,.335,1);
 	transition: border-color 300ms cubic-bezier(.694,0,.335,1);
+	background-color: white;
 }
 
 @media all and (min-width:375px) {
@@ -4885,7 +4904,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: rgb(255,255,255);
+  background-color: transparent;
   /* background-color: var(--light-bg-color); */ }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
