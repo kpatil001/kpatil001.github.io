@@ -74,18 +74,6 @@ Author URL: http://w3layouts.com
           </div>
       </div>
   </header>  
-  
-
-  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script>
-      $('#drop').change(function () {
-          if ($('#drop').is(":checked")) {
-              $('body').css('overflow', 'hidden');
-          } else {
-              $('body').css('overflow', 'auto');
-          }
-      });
-  </script> -->
 </section>
 
 <!-- Headers-4 block --><!-- index-block1 -->
@@ -715,45 +703,13 @@ Author URL: http://w3layouts.com
     </footer>
 
       <section class="w3l-market-footer">
-        <script type="text/javascript">
-          // When the user scrolls down 20px from the top of the document, show the button
-          window.onscroll = function () {
-            scrollFunction()
-          };
-
-          function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              document.getElementById("movetop").style.display = "block";
-            } else {
-              document.getElementById("movetop").style.display = "none";
-            }
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ) {
-			  $('#headers4-block').addClass('header__sticky');
-			} else {
-			  $('#headers4-block').removeClass('header__sticky');
-			}
-          }
-          // function() {
-// 						if ($(this).scrollTop() > 100) {
-// 						  $('#headers4-block').addClass('header__sticky');
-// 						} else {
-// 						  $('#headers4-block').removeClass('header__sticky');
-// 						}
-// 					  }
-
-          // When the user clicks on the button, scroll to the top of the document
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-        </script>
         <!-- move top -->
         <button onclick="topFunction()" id="movetop" title="Go to top">
           ⤴
         </button>
       </section>
   <!-- Template Main JS File -->
-  <script src="./bundles/js/main.js"></script>
+  <script src="bundles/js/main.js"></script>
 
     </body>
 </html>

@@ -766,7 +766,7 @@ ol.grid-list li::before.is-light {
 @media screen and (min-width:1128px) {
 	.hero-cluster {
 		height: 488px;
-		margin: 24px 96px 128px;
+		margin: 56px 96px 128px;
 	}
 }
 
@@ -2090,7 +2090,7 @@ header {
   font-style: normal;
   font-size: 16px;
   line-height: 25px;
-  color: rgba(25, 51, 101, 0.5);
+  color: rgb(25, 51, 101);
   text-transform: capitalize; }
 
 .w3l-header-4 .angle-dropdown {
@@ -13274,7 +13274,7 @@ h4.sub-title {
 
 .w3l-about1 .new-block {
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url(../images/teamwork .jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.33)), url('../images/teamwork.jpg');
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
