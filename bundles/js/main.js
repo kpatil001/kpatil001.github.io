@@ -203,6 +203,9 @@
 // 					}, 500)
 
 
+			$(document).ready(function(){
+				$('.about a').css("color", "white");
+			});
           window.onscroll = function () {
             scrollFunction()
           };
@@ -215,12 +218,10 @@
             }
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ) {
 			  $('#headers4-block').addClass('header__sticky');
-			  var t = o(".header").height() + 30;
-			  console.log(t), $("html,body").animate({
-						scrollTop: a.offset().top - t
-					}, 500)
+			  $('.about a').css("color", "rgb(25, 51, 101)");
 			} else {
 			  $('#headers4-block').removeClass('header__sticky');
+			  $('.about a').css("color", "white");
 			}
           }
 
