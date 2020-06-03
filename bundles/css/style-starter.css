@@ -1776,7 +1776,7 @@ margin-bottom: 1em;
   margin-bottom: 30px;
 }
 
-.why-us .content .more-btn {
+.more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
@@ -1785,11 +1785,11 @@ margin-bottom: 1em;
   transition: all ease-in-out 0.4s;
 }
 
-.why-us .content .more-btn i {
+.more-btn i {
   font-size: 14px;
 }
 
-.why-us .content .more-btn:hover {
+.more-btn:hover {
   color: #ff5821;
   background: #fff;
 }
