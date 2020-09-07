@@ -217,12 +217,15 @@
               document.getElementById("movetop").style.display = "none";
             }
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ) {
-			  $('#headers4-block').addClass('header__sticky');
-			  $('.about a').css("color", "rgb(25, 51, 101)");
-			} else {
-			  $('#headers4-block').removeClass('header__sticky');
-			  $('.about a').css("color", "white");
-			}
+              $('#headers4-block').addClass('header__sticky');
+              $('.about a').css("color", "rgb(25, 51, 101)");
+              $('#about-page-logo').attr("src","bundles/images/safalya-black-logo.png")
+            } else {
+              $('#headers4-block').removeClass('header__sticky');
+              $('.about a').css("color", "white");
+              $('#about-page-logo').attr("src","bundles/images/safalya-white-transparent.png")
+
+            }
           }
 
           // When the user clicks on the button, scroll to the top of the document
